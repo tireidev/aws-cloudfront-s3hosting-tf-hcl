@@ -1,5 +1,9 @@
 variable "u_region" {}
 variable "u_s3_bucket_id" {}
-variable "u_object_key_name" {}
-variable "u_object_source" {}
-variable "u_contect_type" {}
+variable "u_object_key_name_html" {}
+variable "u_object_source_html" {}
+variable "u_contect_type_html" {}
+variable "u_object_key_name_css" {}
+variable "u_object_source_css" {}
+variable "u_object_key_name_js" {}
+variable "u_object_source_js" {}

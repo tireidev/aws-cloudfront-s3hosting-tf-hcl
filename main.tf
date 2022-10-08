@@ -44,9 +44,13 @@ module "aws_s3_object" {
   source            = "./modules/storage/aws_s3_object"
   u_region = var.u_region_ap_northeast_1
   u_s3_bucket_id    = module.aws_s3_bucket.id
-  u_object_key_name = var.u_object_key_name
-  u_object_source   = var.u_object_source
-  u_contect_type    = var.u_contect_type
+  u_object_key_name_html = var.u_object_key_name_html
+  u_object_source_html   = var.u_object_source_html
+  u_contect_type_html    = var.u_contect_type_html
+  u_object_key_name_css = var.u_object_key_name_css
+  u_object_source_css   = var.u_object_source_css
+  u_object_key_name_js = var.u_object_key_name_js
+  u_object_source_js   = var.u_object_source_js
 }
 
 # ========================================================== #

@@ -7,3 +7,6 @@
 
 # .terraform files
 .terraform.*
+
+# HTML files, CSS files, JavaScript files
+src
